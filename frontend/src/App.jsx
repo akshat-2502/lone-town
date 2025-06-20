@@ -4,7 +4,7 @@ import MatchScreen from "./components/MatchScreen";
 import OnboardingScreen from "./components/OnboardingScreen";
 import "./App.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://lone-town.onrender.com");
 
 const mockUsers = [
   {
